@@ -1,0 +1,15 @@
+.footer__menu {
+  padding: 0;
+  display: flex;
+  column-gap: 18px;
+  list-style-type: none;
+  align-items: center;
+}
+
+@media screen and (max-width: 730px) {
+  .footer__menu {
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: flex-start;
+  }
+}
