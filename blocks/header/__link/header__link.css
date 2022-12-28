@@ -1,4 +1,4 @@
-.header__menu_link {
+.header__link {
   text-decoration: none;
   color: #fff;
   font-weight: 400;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 400px) {
-  .header__menu_link {
+  .header__link {
     font-size: 18px;
     line-height: 20px;
   }
