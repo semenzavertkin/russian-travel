@@ -4,3 +4,9 @@
   line-height: 22px;
   color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .place__link {
+    padding: 0 16px;
+  }
+}

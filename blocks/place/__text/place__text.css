@@ -4,3 +4,9 @@
   flex-direction: column;
   row-gap: 26px;
 }
+
+@media screen and (max-width: 600px) {
+  .place__text {
+    padding: 0 16px;
+  }
+}
